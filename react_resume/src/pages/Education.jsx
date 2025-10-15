@@ -10,7 +10,7 @@ function Education() {
         <h3 className="edu-subtitle">DON BOSCO MATRICULATION HIGHER SECONDARY SCHOOL</h3>
 
         <img
-          src="../src/assets/imgs/education/DB_Egmore_Logo.png"
+          src="/imgs/education/DB_Egmore_Logo.png"
           alt="Don Bosco Matriculation Higher Secondary School"
           className="edu-logo is-small"
         /> <br />
@@ -25,7 +25,7 @@ function Education() {
         <h3 className="edu-subtitle">SAVEETHA ENGINEERING COLLEGE</h3>
 
         <img
-          src="../src/assets/imgs/education/saveetha_university.png"
+          src="/imgs/education/saveetha_university.png"
           alt="Saveetha Engineering College"
           className="edu-logo is-large"
         />

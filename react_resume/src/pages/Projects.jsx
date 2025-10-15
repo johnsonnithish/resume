@@ -6,7 +6,7 @@ export default function Projects() {
   const cards=[
     <div style={{textAlign: 'center'}}>
       <h1 style={{fontFamily: 'Akira'}}>GameBoxd</h1> <br />
-      <img src="../src/assets/imgs/projects/GameBoxd_log.png" />
+      <img src="/imgs/projects/GameBoxd_log.png" />
       <p>I have always wanted a site like this to exist, so I built it, on <strong>React</strong> myself.
         This is a site that lets you track and review video games you have played, want to play and collections of custom made lists.
         It is inspired by letterboxd.com, a similar site for movies. The database is powered by <strong>IGDB</strong>.
@@ -14,10 +14,10 @@ export default function Projects() {
       </p>
       <a href="https://gameboxd-htyv.onrender.com/">GameBoxd</a>
       <div className="image-grid">
-        <img src="../src/assets/imgs/projects/gb_1.png"  />
-        <img src="../src/assets/imgs/projects/gb_2.png"  />
-        <img src="../src/assets/imgs/projects/gb_3.png"  />
-        <img src="../src/assets/imgs/projects/gb_4.png"  />
+        <img src="/imgs/projects/gb_1.png"  />
+        <img src="/imgs/projects/gb_2.png"  />
+        <img src="/imgs/projects/gb_3.png"  />
+        <img src="/imgs/projects/gb_4.png"  />
       </div>
     </div>,
     <div style={{textAlign: 'center'}}>
@@ -31,7 +31,7 @@ export default function Projects() {
         }}
       >
         <img
-          src="../src/assets/imgs/projects/rasa_logo.png"
+          src="/imgs/projects/rasa_logo.png"
           alt="Rasa"
           style={{ maxWidth: '100%', maxHeight: '100%', display: 'block' }}
         />
@@ -40,10 +40,10 @@ export default function Projects() {
       <br />
       <p>A RASA chatbot that takes care of the leave application and answering FAQs from the companies policy. The chatbot is developed through <strong>RASA</strong> framework, with exhaustive training on <strong>Natual Language Processing</strong> and intent triggers.</p><br />
       <div className="image-grid">
-        <img src="../src/assets/imgs/projects/rasa_1.png"  />
-        <img src="../src/assets/imgs/projects/rasa_2.png"  />
-        <img src="../src/assets/imgs/projects/rasa_3.png"  />
-        <img src="../src/assets/imgs/projects/rasa_4.png"  />
+        <img src="/imgs/projects/rasa_1.png"  />
+        <img src="/imgs/projects/rasa_2.png"  />
+        <img src="/imgs/projects/rasa_3.png"  />
+        <img src="/imgs/projects/rasa_4.png"  />
       </div>
     </div>,
     <div style={{textAlign: 'center'}}>
@@ -57,7 +57,7 @@ export default function Projects() {
         }}
       >
         <img
-          src="../src/assets/imgs/projects/Solar-Panel.png"
+          src="/imgs/projects/Solar-Panel.png"
           alt="Rasa"
           style={{ maxWidth: '100%', maxHeight: '100%', display: 'block' }}
         />
@@ -65,10 +65,10 @@ export default function Projects() {
       <p>A energy storing wearable cell, prototype, that could theoritically store the solar energy gained throughout the day and charge your devices. This college mini-project has high potential and a definite venture I am looking forward to explore.
       </p>
       <div className="image-grid image-grid--crop">
-        <img src="../src/assets/imgs/projects/solar_1.jpg" />
-        <img src="../src/assets/imgs/projects/solar_2.jpg" />
-        <img src="../src/assets/imgs/projects/solar_3.jpg" />
-        <img src="../src/assets/imgs/projects/solar_4.jpg" />
+        <img src="/imgs/projects/solar_1.jpg" />
+        <img src="/imgs/projects/solar_2.jpg" />
+        <img src="/imgs/projects/solar_3.jpg" />
+        <img src="/imgs/projects/solar_4.jpg" />
       </div>
     </div>,
     <div style={{
