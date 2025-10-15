@@ -1,0 +1,20 @@
+.columns__wrap {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+  .columns__scroller {
+    gap: 8px !important;
+    padding: 8px !important;
+  }
+
+  .columns__column {
+    /* Let cards grow with content on small screens */
+    height: auto !important;
+    min-height: 400px !important;  /* keep a nice minimum */
+    border-radius: 12px !important;
+    padding: 8px !important;
+    flex: 0 0 280px !important;
+  }
+}

@@ -1,0 +1,25 @@
+p{
+  font-family: Typewriter;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  justify-items: center;
+  align-items: center;
+}
+
+/* Make images never exceed the column width */
+.image-grid img {
+  width: 100%;
+  height: auto;
+  display: block;      /* removes inline-gap */
+  border-radius: 12px; /* optional */
+}
+
+/* If you want uniform thumbnails with cropping, add this modifier */
+.image-grid--crop img {
+  height: 80px;       /* pick any fixed height */
+  object-fit: cover;   /* prevents distortion, crops neatly */
+}

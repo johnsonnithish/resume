@@ -1,0 +1,40 @@
+/* Add this */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+/* Change this block */
+body {
+  margin: 0;
+  background: #000;
+  /* remove these so body is not a flexbox centering #root to content size */
+  /* display: flex;
+     place-items: center; */
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* (optional) keep your h1 reset */
+h1 { margin: 0; }
+
+@font-face {
+  font-family: Akira;
+  src: url(./assets/fonts/Akira.otf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GoldenAge;
+  src: url(./assets/fonts/GoldenAge.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Typewriter;
+  src: url(./assets/fonts/JMH\ Typewriter.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,27 @@
+.blocks-container {
+  background-color: rgba(255, 255, 255, 0.060);
+  padding: 40px;
+  border-radius: 50px;
+  box-shadow: 0 0 40px #000102;
+  display: grid;
+  grid-template-columns: repeat(2, 210px);
+  gap: 10px;
+}
+
+.block-name {
+  font-family: GoldenAge;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  height: 100px;
+  background-color: #0b5cff;
+  color: black;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.block-name:hover {
+  box-shadow: 10px 10px 10px #000000;
+  transform: scale(1.03);
+}

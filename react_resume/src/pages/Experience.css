@@ -1,0 +1,72 @@
+.experience-wrap {
+  position: relative;
+  top: 100px;
+}
+
+/* Card */
+.experience-card {
+  width: 100%;
+  text-align: center;
+  padding-top: 8px;
+}
+
+/* Heading */
+.experience-title {
+  font-family: 'Akira', sans-serif;
+  height: 90px;
+  margin: 0;
+}
+
+/* Line area */
+.line-wrap {
+  position: relative;
+  height: 16px;
+  margin-top: 8px;
+}
+
+/* Middle dot */
+.dot {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  line-height: 1;
+  user-select: none;
+}
+
+/* Base line */
+.line {
+  position: absolute;
+  top: 50%;
+  height: 2px;
+  background: currentColor;
+  transform: translateY(-50%);
+}
+
+/* 190px line extending to the RIGHT from center */
+.line-right {
+  left: 50%;
+  width: 190px;
+}
+
+/* 190px line extending to the LEFT from center */
+.line-left {
+  left: calc(50% - 190px);
+  width: 190px;
+}
+
+
+
+@media (max-width: 480px) {
+  /* Shorter lines on small screens */
+  .line-right {
+    width: 168px;
+  }
+
+  .line-left {
+    left: calc(50% - 140px);
+    width: 140px;
+  }
+  
+}

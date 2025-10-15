@@ -1,0 +1,72 @@
+/* Page layout */
+.education-page {
+  position: relative;
+  margin-top: 100px; /* was: top: 100px */
+}
+
+/* Each card’s content */
+.edu-card {
+  text-align: center;
+}
+
+/* Titles */
+.edu-title {
+  font-family: "Akira", system-ui, sans-serif;
+  font-size: 28px;
+  margin: 0 0 8px;
+  letter-spacing: 0.5px;
+}
+
+.edu-subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+
+/* Logos */
+.edu-logo {
+  display: block;
+  margin: 12px auto 20px;
+  height: auto;
+}
+
+.edu-logo.is-small {
+  width: 90px;
+}
+
+.edu-logo.is-large {
+  width: 200px;
+}
+
+/* Metrics text */
+.edu-metrics {
+  margin: 14px 0 0;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Optional: tweak Columns’ inner cards (applies via classNames.column) */
+
+
+/* Responsive */
+@media (max-width: 480px) {
+  .education-page {
+    margin-top: 72px;
+  }
+  .edu-title {
+    font-size: 22px;
+  }
+  .edu-subtitle {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  .edu-logo.is-large {
+    width: 160px;
+  }
+  .edu-logo.is-small {
+    width: 72px;
+  }
+  .edu-metrics {
+    font-size: 15px;
+  }
+}
