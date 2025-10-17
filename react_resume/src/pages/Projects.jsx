@@ -7,7 +7,7 @@ export default function Projects() {
     <div style={{textAlign: 'center'}}>
       <h1 style={{fontFamily: 'Akira'}}>GameBoxd</h1> <br />
       <img src="/imgs/projects/GameBoxd_log.png" />
-      <p>I have always wanted a site like this to exist, so I built it, on <strong>React</strong> myself.
+      <p>I have always wanted a site like this to exist, so I built it, on <strong>React JS</strong> myself.
         This is a site that lets you track and review video games you have played, want to play and collections of custom made lists.
         It is inspired by letterboxd.com, a similar site for movies. The database is powered by <strong>IGDB</strong>.
         This is still very much a work in progress, and I plan to add many more features in the future.
@@ -38,7 +38,7 @@ export default function Projects() {
       </div>
       <br />
       <br />
-      <p>A RASA chatbot that takes care of the leave application and answering FAQs from the companies policy. The chatbot is developed through <strong>RASA</strong> framework, with exhaustive training on <strong>Natual Language Processing</strong> and intent triggers.</p><br />
+      <p>A Rasa chatbot that takes care of the leave application and answering FAQs from the companies policy. The chatbot is developed through <strong>RASA</strong> framework, with exhaustive training on <strong>Natual Language Processing</strong> and intent triggers.</p><br />
       <div className="image-grid">
         <img src="/imgs/projects/rasa_1.png"  />
         <img src="/imgs/projects/rasa_2.png"  />
@@ -70,6 +70,28 @@ export default function Projects() {
         <img src="/imgs/projects/solar_3.jpg" />
         <img src="/imgs/projects/solar_4.jpg" />
       </div>
+    </div>,
+    <div style={{textAlign: 'center'}}>
+      <h1 style={{fontFamily: 'Akira'}}>Spam Classifier</h1> <br />
+      <div
+        style={{
+          width: 150,
+          height: 50,
+          margin: '0 auto',            
+          display: 'grid'
+        }}
+      >
+        <img
+          src="/imgs/projects/sc_1.png"
+          alt="Rasa"
+          style={{ maxWidth: '100%', maxHeight: '100%', display: 'block' }}
+        />
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <p style={{marginTop: '70px'}}>A web-app, build using React JS that classifies your text as Spam or Not Spam. Using the four well trained models, Multinomial Naive Bayes, Support Vector Machine, Logistic Regression and Random Forest, the web-app sends out an API call recieved by the app.py that uses the selected model to predict the verdict.</p><br />
     </div>,
     <div style={{
       display: 'flex',

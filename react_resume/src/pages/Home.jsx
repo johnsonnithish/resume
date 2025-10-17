@@ -45,7 +45,7 @@ function Home() {
             items={[
               { label: "Education",   to: "/education" },
               { label: "Projects",    to: "/projects" },
-              { label: "Certificates",to: "/certificates" },
+              { label: "Skills",to: "/skills" },
               { label: "Experience",  to: "/experience" },
             ]}
           />

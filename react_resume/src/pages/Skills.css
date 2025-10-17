@@ -1,0 +1,13 @@
+h1{
+  font-family: "Akira";
+  text-align: center;
+}
+
+ul{
+  text-align: center;
+  font-size: 30px;
+  list-style-type: none;
+  padding: 0;
+  line-height: 2.5;
+  font-family: 'Typewriter';
+}
