@@ -121,6 +121,7 @@ export default function Skills() {
       <h1 style={{fontFamily: 'Akira', textAlign: 'center'}}>Machine Learning</h1>
       <ul>
         <li>RASA</li>
+        <li> Scikit-Learn</li>
       </ul>
     </div>,
   ]
