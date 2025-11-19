@@ -99,7 +99,7 @@ export default function Projects() {
       justifyContent: 'center', // horizontal
       minHeight: '450px'        // or '100vh' to center on the screen
     }}>
-      <h1 style={{ fontFamily: 'Akira', margin: 0 }}>THIS?</h1>
+      <h1 style={{ fontFamily: 'Akira', marginTop: '150px'}}>THIS?</h1>
     </div>
   ]
   return(
@@ -111,7 +111,7 @@ export default function Projects() {
         allowHtml
         maxWidth="960px"
         columnWidth={380}
-        columnHeight={620}
+        columnHeight={630}
         gap={20}
         scrollerBg="#07f"
         columnBg="#fcfcfcff"

@@ -92,6 +92,7 @@ export default function Skills() {
     <div>
       <h1 style={{fontFamily: 'Akira', textAlign: 'center'}}>Data Visualization</h1>
       <ul>
+        <li>Tableau</li>
         <li>Pandas</li>
         <li>NumPy</li>
         <li>Seaborn</li>
@@ -118,10 +119,12 @@ export default function Skills() {
       </ul>
     </div>,
     <div>
-      <h1 style={{fontFamily: 'Akira', textAlign: 'center'}}>Machine Learning</h1>
+      <h1 style={{fontFamily: 'Akira', textAlign: 'center'}}>AI/Machine Learning</h1>
       <ul>
         <li>RASA</li>
         <li> Scikit-Learn</li>
+        <li>Prompt Engineering</li>
+        <li>Google ADK</li>
       </ul>
     </div>,
   ]
